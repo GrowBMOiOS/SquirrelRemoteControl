@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2CD6BF62C3955DA0013BBDA /* SquirrelRemoteControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6BF52C3955DA0013BBDA /* SquirrelRemoteControlApp.swift */; };
+		D2CD6BF82C3955DA0013BBDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6BF72C3955DA0013BBDA /* ContentView.swift */; };
+		D2CD6BFA2C3955DA0013BBDA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6BF92C3955DA0013BBDA /* Item.swift */; };
+		D2CD6BFC2C3955DC0013BBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CD6BFB2C3955DC0013BBDA /* Assets.xcassets */; };
+		D2CD6BFF2C3955DC0013BBDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CD6BFE2C3955DC0013BBDA /* Preview Assets.xcassets */; };
+		D2CD6C0B2C3955DC0013BBDA /* SquirrelRemoteControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6C0A2C3955DC0013BBDA /* SquirrelRemoteControlTests.swift */; };
+		D2CD6C152C3955DC0013BBDA /* SquirrelRemoteControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6C142C3955DC0013BBDA /* SquirrelRemoteControlUITests.swift */; };
+		D2CD6C172C3955DC0013BBDA /* SquirrelRemoteControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6C162C3955DC0013BBDA /* SquirrelRemoteControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CD6C072C3955DC0013BBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CD6BEA2C3955DA0013BBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CD6BF12C3955DA0013BBDA;
+			remoteInfo = SquirrelRemoteControl;
+		};
+		D2CD6C112C3955DC0013BBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CD6BEA2C3955DA0013BBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CD6BF12C3955DA0013BBDA;
+			remoteInfo = SquirrelRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2CD6BF22C3955DA0013BBDA /* SquirrelRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquirrelRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6BF52C3955DA0013BBDA /* SquirrelRemoteControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelRemoteControlApp.swift; sourceTree = "<group>"; };
+		D2CD6BF72C3955DA0013BBDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2CD6BF92C3955DA0013BBDA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D2CD6BFB2C3955DC0013BBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2CD6BFE2C3955DC0013BBDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2CD6C002C3955DC0013BBDA /* SquirrelRemoteControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquirrelRemoteControl.entitlements; sourceTree = "<group>"; };
+		D2CD6C012C3955DC0013BBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CD6C062C3955DC0013BBDA /* SquirrelRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6C0A2C3955DC0013BBDA /* SquirrelRemoteControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelRemoteControlTests.swift; sourceTree = "<group>"; };
+		D2CD6C102C3955DC0013BBDA /* SquirrelRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6C142C3955DC0013BBDA /* SquirrelRemoteControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelRemoteControlUITests.swift; sourceTree = "<group>"; };
+		D2CD6C162C3955DC0013BBDA /* SquirrelRemoteControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirrelRemoteControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CD6BEF2C3955DA0013BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C032C3955DC0013BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C0D2C3955DC0013BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2CD6BE92C3955DA0013BBDA = {
+			isa = PBXGroup;
+			children = (
+				D2CD6BF42C3955DA0013BBDA /* SquirrelRemoteControl */,
+				D2CD6C092C3955DC0013BBDA /* SquirrelRemoteControlTests */,
+				D2CD6C132C3955DC0013BBDA /* SquirrelRemoteControlUITests */,
+				D2CD6BF32C3955DA0013BBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CD6BF32C3955DA0013BBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6BF22C3955DA0013BBDA /* SquirrelRemoteControl.app */,
+				D2CD6C062C3955DC0013BBDA /* SquirrelRemoteControlTests.xctest */,
+				D2CD6C102C3955DC0013BBDA /* SquirrelRemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CD6BF42C3955DA0013BBDA /* SquirrelRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6BF52C3955DA0013BBDA /* SquirrelRemoteControlApp.swift */,
+				D2CD6BF72C3955DA0013BBDA /* ContentView.swift */,
+				D2CD6BF92C3955DA0013BBDA /* Item.swift */,
+				D2CD6BFB2C3955DC0013BBDA /* Assets.xcassets */,
+				D2CD6C002C3955DC0013BBDA /* SquirrelRemoteControl.entitlements */,
+				D2CD6C012C3955DC0013BBDA /* Info.plist */,
+				D2CD6BFD2C3955DC0013BBDA /* Preview Content */,
+			);
+			path = SquirrelRemoteControl;
+			sourceTree = "<group>";
+		};
+		D2CD6BFD2C3955DC0013BBDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6BFE2C3955DC0013BBDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2CD6C092C3955DC0013BBDA /* SquirrelRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6C0A2C3955DC0013BBDA /* SquirrelRemoteControlTests.swift */,
+			);
+			path = SquirrelRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		D2CD6C132C3955DC0013BBDA /* SquirrelRemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6C142C3955DC0013BBDA /* SquirrelRemoteControlUITests.swift */,
+				D2CD6C162C3955DC0013BBDA /* SquirrelRemoteControlUITestsLaunchTests.swift */,
+			);
+			path = SquirrelRemoteControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CD6BF12C3955DA0013BBDA /* SquirrelRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6C1A2C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControl" */;
+			buildPhases = (
+				D2CD6BEE2C3955DA0013BBDA /* Sources */,
+				D2CD6BEF2C3955DA0013BBDA /* Frameworks */,
+				D2CD6BF02C3955DA0013BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquirrelRemoteControl;
+			productName = SquirrelRemoteControl;
+			productReference = D2CD6BF22C3955DA0013BBDA /* SquirrelRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CD6C052C3955DC0013BBDA /* SquirrelRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6C1D2C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControlTests" */;
+			buildPhases = (
+				D2CD6C022C3955DC0013BBDA /* Sources */,
+				D2CD6C032C3955DC0013BBDA /* Frameworks */,
+				D2CD6C042C3955DC0013BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CD6C082C3955DC0013BBDA /* PBXTargetDependency */,
+			);
+			name = SquirrelRemoteControlTests;
+			productName = SquirrelRemoteControlTests;
+			productReference = D2CD6C062C3955DC0013BBDA /* SquirrelRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2CD6C0F2C3955DC0013BBDA /* SquirrelRemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6C202C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControlUITests" */;
+			buildPhases = (
+				D2CD6C0C2C3955DC0013BBDA /* Sources */,
+				D2CD6C0D2C3955DC0013BBDA /* Frameworks */,
+				D2CD6C0E2C3955DC0013BBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CD6C122C3955DC0013BBDA /* PBXTargetDependency */,
+			);
+			name = SquirrelRemoteControlUITests;
+			productName = SquirrelRemoteControlUITests;
+			productReference = D2CD6C102C3955DC0013BBDA /* SquirrelRemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CD6BEA2C3955DA0013BBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D2CD6BF12C3955DA0013BBDA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D2CD6C052C3955DC0013BBDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D2CD6BF12C3955DA0013BBDA;
+					};
+					D2CD6C0F2C3955DC0013BBDA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D2CD6BF12C3955DA0013BBDA;
+					};
+				};
+			};
+			buildConfigurationList = D2CD6BED2C3955DA0013BBDA /* Build configuration list for PBXProject "SquirrelRemoteControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CD6BE92C3955DA0013BBDA;
+			productRefGroup = D2CD6BF32C3955DA0013BBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CD6BF12C3955DA0013BBDA /* SquirrelRemoteControl */,
+				D2CD6C052C3955DC0013BBDA /* SquirrelRemoteControlTests */,
+				D2CD6C0F2C3955DC0013BBDA /* SquirrelRemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CD6BF02C3955DA0013BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6BFF2C3955DC0013BBDA /* Preview Assets.xcassets in Resources */,
+				D2CD6BFC2C3955DC0013BBDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C042C3955DC0013BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C0E2C3955DC0013BBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CD6BEE2C3955DA0013BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6BF82C3955DA0013BBDA /* ContentView.swift in Sources */,
+				D2CD6BFA2C3955DA0013BBDA /* Item.swift in Sources */,
+				D2CD6BF62C3955DA0013BBDA /* SquirrelRemoteControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C022C3955DC0013BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6C0B2C3955DC0013BBDA /* SquirrelRemoteControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6C0C2C3955DC0013BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6C152C3955DC0013BBDA /* SquirrelRemoteControlUITests.swift in Sources */,
+				D2CD6C172C3955DC0013BBDA /* SquirrelRemoteControlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CD6C082C3955DC0013BBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CD6BF12C3955DA0013BBDA /* SquirrelRemoteControl */;
+			targetProxy = D2CD6C072C3955DC0013BBDA /* PBXContainerItemProxy */;
+		};
+		D2CD6C122C3955DC0013BBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CD6BF12C3955DA0013BBDA /* SquirrelRemoteControl */;
+			targetProxy = D2CD6C112C3955DC0013BBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2CD6C182C3955DC0013BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2CD6C192C3955DC0013BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CD6C1B2C3955DC0013BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquirrelRemoteControl/SquirrelRemoteControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SquirrelRemoteControl/Preview Content\"";
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SquirrelRemoteControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2CD6C1C2C3955DC0013BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquirrelRemoteControl/SquirrelRemoteControl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SquirrelRemoteControl/Preview Content\"";
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SquirrelRemoteControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2CD6C1E2C3955DC0013BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquirrelRemoteControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquirrelRemoteControl";
+			};
+			name = Debug;
+		};
+		D2CD6C1F2C3955DC0013BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquirrelRemoteControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquirrelRemoteControl";
+			};
+			name = Release;
+		};
+		D2CD6C212C3955DC0013BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquirrelRemoteControl;
+			};
+			name = Debug;
+		};
+		D2CD6C222C3955DC0013BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.SquirrelRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquirrelRemoteControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CD6BED2C3955DA0013BBDA /* Build configuration list for PBXProject "SquirrelRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6C182C3955DC0013BBDA /* Debug */,
+				D2CD6C192C3955DC0013BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6C1A2C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6C1B2C3955DC0013BBDA /* Debug */,
+				D2CD6C1C2C3955DC0013BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6C1D2C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6C1E2C3955DC0013BBDA /* Debug */,
+				D2CD6C1F2C3955DC0013BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6C202C3955DC0013BBDA /* Build configuration list for PBXNativeTarget "SquirrelRemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6C212C3955DC0013BBDA /* Debug */,
+				D2CD6C222C3955DC0013BBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CD6BEA2C3955DA0013BBDA /* Project object */;
+}
